@@ -1,2 +1,52 @@
 /* Write your selectors and styles below! */
+#first-paragraph {
+  color: chartreuse;
+  font-size: 1.5em;
+  font-family: wingdings;
+}
+
+body {
+  background-color: green;
+}
+
+h1 {
+  font-size: 4em;
+}
+
+/* Initial Style */
+p {
+  color: pink;
+}
+
+/* Cascade is overriding the p style */
+p {
+  color: red;
+}
+
+/* More specific selector applies it's style */
+.main-content > p {
+  color: blue;
+  font-size: 1.5em;
+}
+
+.highlight-content > p {
+  color: white;
+}
+
+#subtitle {
+  font-family: verdana;
+  text-decoration: underline;
+  color: magenta;
+}
+
+p {
+  border: 5px dotted powderblue;
+  padding: 30px;
+}
+
+#title {
+  text-align: center;
+  font-style: italic;
+}
+
 
