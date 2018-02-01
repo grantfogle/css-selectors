@@ -23,3 +23,8 @@ The master branch is the base starting point, whereas the breakout-complete bran
 
 * git checkout breakout-complete
 
+You can return to the master branch to write your own code:
+
+* git checkout master
+
+Or you can continue to work on the breakout-complete branch.
