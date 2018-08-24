@@ -1,2 +1,29 @@
 /* Write your selectors and styles below! */
+body {
+    background-color: #dfe6e9;
+    color: #2d3436;
+}
 
+p {
+    /* background-color: orange; */
+}
+
+h1, h3, main p, footer  {
+    text-align: center;
+}
+
+/* Casecade is taking precendence for below style */
+.main-content {
+    background-color: #74b9ff;
+    padding: 20px;
+    margin: 0 -10px;
+    display: flex;
+}
+
+#first-paragraph, #second-paragraph, #third-paragraph {
+    padding: 0 10px;
+}
+
+#second-paragraph, #third-paragraph {
+    border-left: solid black 1px;
+}
